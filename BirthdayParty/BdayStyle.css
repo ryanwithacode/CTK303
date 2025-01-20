@@ -1,0 +1,143 @@
+h1 {
+    font-family: 'IFC RAILROAD', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+
+    a {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:focus {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover,
+    a:active {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+body {
+    background-image: url('orange-western-aesthetic-desktop-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+p {
+    text-align: center;
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    background-color: #FFFFC5;
+
+}
+
+iframe {
+    align-content: center;
+}
+
+#WillSmith {
+    img {
+        text-align: center;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+#DruHill {
+    img {
+        text-align: center;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+#KoolMoeDee {
+    img {
+        text-align: center;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+}
+
+#CenterVideo {
+    text-align: center;
+padding-left: 0px;
+    video {
+        height: 480px;
+        width: 854px;
+    }
+
+}
+
+nav {
+    display: flex;
+    padding-left: 375px;
+    padding-top: -300px;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+nav li {
+    margin-left: 1.5em;
+    font-size: 1.3em;
+    display: inline;
+    font-family: 'Bronco Personal Use', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #63360c;
+}
+
+nav a {
+    flex: 1;
+    background-color: #FFFFC5;
+    color: #63360c;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: #63360c;
+    color: #FFFFC5;
+}
+
+a:visited {
+    text-decoration: none;
+
+}
