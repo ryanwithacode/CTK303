@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+}
+
+.ephesis-regular {
+    font-family: "Ephesis", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+h1 {
+    color: gold;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+p {
+    color: gold;
+    text-align: center;
+    font-family: "Ephesis", serif;
+    font-size: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#HeadLogo {
+margin-bottom: 0px;
+img {
+transition: transform .7s ease-in-out;
+}
+img:hover {
+    transform: rotate(360deg);
+  }
+}
+
+#centerpic {
+    img{
+    height: 671px;
+    width: 570px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+    animation: img-ani 10s linear infinite, 2s infinite alternate, 5s infinite;
+    }
+}
+
+/* @keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+} */
+
+@keyframes img-ani {
+    0%   { opacity: .0; left:0; transform: translateY(3000);}
+    25%  { opacity: 1.0; transform: translateY(-300px);scale: 0.7 0.9;}
+    30% { scale: 1}
+    50% { opacity: .0; scale: 1;}
+    75% { opacity: 1.0; transform: translateY(-300px); scale: 0.7 0.9; }
+    100% {opacity: .0; right: 1000px; transform: translateY(3000px);}
+}
+
+.circle1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 500px;
+    border-radius:500px;
+    margin-top: 300px;
+    opacity:   1.0;
+    background-color: #fff446;
+    animation: circle1-ani 10s linear infinite;
+  }
+  
+  @keyframes circle1-ani {
+    0%   { opacity: 1.0; left:0; }
+    25%  { opacity: .5; }
+    50% { opacity: 1.0; left: 1000px; }
+    75% { opacity: .5;  }
+    100% {opacity: 1.0; right: 1000px;}
+  }
+
+/* #centerpic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
