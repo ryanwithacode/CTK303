@@ -1,0 +1,101 @@
+body {
+  background-color:#343345;
+}
+
+#Mlogo {
+  width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+transform: translate(0, 200px);
+animation: Logofade 6.0s;
+animation-timing-function: ease-in-out;
+}
+
+@keyframes Logofade {
+  0%   { opacity: 0;}
+  80%   { opacity: 0;}
+  100% { opacity: 1;}
+}
+
+
+#RivalsSVG { 
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 140px;
+    width: 50%; 
+    
+  
+}
+
+#R {
+    animation: rfade 2.0s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes rfade {
+    0%   { transform: translate(0, -800px);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #Layer_3 {
+    animation: L3fade 3.0s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes L3fade {
+    0%   { transform: translate(-900px, 0px);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #I {
+    animation: ifade 4.0s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes ifade {
+    0%   { transform: translate(0, -400px);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #V {
+    animation: vfade 5.0s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes vfade {
+    0%   { transform: translate(500px, -500px);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #A {
+    animation: afade 4.0s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes afade {
+    0%   { transform: translate(-1000px, 1000px);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #L {
+    animation: lfade 3.0s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes lfade {
+    0%   { transform: translate(0, 1000px);}
+    100% { transform: translate(0, 0);}
+  }
+
+  #S {
+    animation: sfade 5.0s;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes sfade {
+    0%   { transform: translate(1000px, 0);}
+    100% { transform: translate(0, 0);}
+  }
