@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Parallax scrolling effect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Timmana&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="JSParallax.css">
+</head>
+
+<body>
+    <section class="hero">
+        <img src="Marvel’s-Spider-Man-4K-Wallpaper-1.jpg" alt="" class="parallax">
+        <div class="text-wrapper">
+            <h1 class="headline">Spider-Man</h1>
+            <h2 class="sub-headline">With Great Power <br> Comes Great Responsiblity</h2>
+        </div>
+    </section>
+    <section class="overflow"> <img src="wallpapersden.com_venom-fortnite-4k_3840x2160.jpg" alt="Venom"
+            id="Lowerpic"></section>
+    <!-- <section class="hero2"><img src="MilesMorales.jpg" alt="Miles" class="Spider2">
+        <div class="text-wrapper">
+            <h1 class="headline">Ultimate <br> Spider-Man</h1>
+            <h2 class="sub-headline">With Great Power <br> Comes Great Responsiblity</h2>
+        </div>
+    </section> -->
+    <script>
+        window.addEventListener('scroll', function () {
+            const parallax = document.querySelector('.parallax');
+            let scrollPosition = window.pageYOffset;
+
+            parallax.style.transform = 'translateY(' + scrollPosition * .7 + 'px)';
+        });
+
+        // window.addEventListener('scroll', function () {
+        //     const parallax = document.querySelector('.Spider2');
+        //     let scrollPosition = window.pageYOffset;
+
+        //     parallax.style.transform = 'translateY(' + scrollPosition * .7 + 'px)';
+        // });
+
+        var logo = document.getElementById("Lowerpic");
+
+        function checkPosition() {
+            var logoTop = logo.offsetTop;
+            var windowScroll = window.scrollY;
+
+            console.log("logoTop: ", logoTop);
+            console.log("windowScroll: ", windowScroll);
+
+            if (logoTop - windowScroll < 400) {
+                logo.classList.add("show");
+            } else {
+                logo.classList.remove("show");
+            }
+        }
+        window.addEventListener("scroll", checkPosition);
+    </script>
+</body>
+
+</html>
