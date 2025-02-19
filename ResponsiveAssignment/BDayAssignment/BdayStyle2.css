@@ -1,0 +1,349 @@
+h1 {
+    font-family: 'IFC RAILROAD', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+
+    a {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:focus {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover,
+    a:active {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+body {
+    background-image: url('orange-western-aesthetic-desktop-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+p {
+    text-align: center;
+    font-family: 'TT Hoves Pro Trial', sans-serif;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    background-color: #FFFFC5;
+
+}
+
+iframe {
+    align-content: center;
+}
+
+#WillSmith {
+    img {
+        text-align: center;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+#DruHill {
+    img {
+        text-align: center;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+#KoolMoeDee {
+    img {
+        text-align: center;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+}
+
+#CenterVideo {
+    text-align: center;
+    padding-left: 0px;
+
+    video {
+        height: 480px;
+        width: 854px;
+    }
+
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+nav {
+    display: flex;
+    /* padding-left: 525px; */
+    /* padding-top: -300px; */
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #63360c;
+    background-color: #FFFFC5;
+    font-size: 1.3em;
+    font-family: 'Bronco Personal Use', sans-serif;
+    padding: 0.5rem 1rem;
+    border: 1px solid;
+    transition: all 0.5s ease-out;
+}
+
+/* nav a {
+    flex: 1;
+    background-color: #FFFFC5;
+    color: #63360c;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+} */
+
+nav a:hover,
+nav a:focus {
+    background-color: #63360c;
+    color: #FFFFC5;
+}
+
+a:visited {
+    text-decoration: none;
+
+}
+
+#CenterVideo {
+    position: relative;
+    width: 100%;
+    max-width: 854px;
+    max-height: 0%;
+    margin: 0 auto;
+}
+
+#CenterVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    border: none;
+}
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+
+/* .video-list-container {
+    max-height: 900px;
+} */
+
+
+
+
+/* @media (max-width: 480px) {
+    h1 {
+        font-size: 40px; 
+    }
+
+    p {
+        font-size: medium; 
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    nav {
+        flex-direction: row; 
+        text-align: center;
+        padding: 0.5rem;
+    }
+
+    nav ul {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr; 
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    nav li {
+        margin: 0.3rem 0;
+display: flex;
+justify-content: center;
+} 
+
+nav a {
+    font-size: 1.1em;
+    padding: 0.4rem 0.8rem;
+}
+
+#CenterVideo video {
+    height: 360px;
+    width: 530px;
+}
+
+body {
+    background-size: cover;
+}
+}*/
+
+@media (max-width: 659px) {
+
+    nav {
+        flex-direction: column;
+        /* width: 100%;
+        margin: 0; */
+        align-items: center;
+        padding: 0.5rem;
+    }
+
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        display:block;
+        gap: 1rem;
+    }
+
+    nav li {
+        margin: 0.5rem 0;
+        padding: 0.5rem;
+    }
+
+    /* .video-list-container {
+        max-height: none;
+    } */
+
+    /* .video-list-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%; 
+      } */
+
+      /* .navbar .hamburger {
+        position: absolute;
+        top: 0;
+        right: 0;
+        border: unset;
+        background: unset;
+      }
+
+      .navbar .hamburger svg {
+        stroke: #FFFFC5;
+      } */
+    /* nav ul {
+    flex-wrap: wrap;
+    width: auto;
+} */
+    /* li {
+        width: 50%;
+    } */
+}
+
+@media (max-width: 851px) {
+    nav {
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    nav ul {
+        flex-direction: row;
+        /* width: 70%;
+        height: 70%; */
+    }
+
+    nav li {
+        margin: 0.5rem 0;
+    }
+
+    /* .video-list-container {
+        max-height: none;
+    } */
+}
+
+@media (min-width: 852px) {
+    nav {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        margin: 0.46rem 0;
+    }
+
+    .video-list-container {
+        max-height: 900px;
+    }
+}
+
+@media (max-width: 1334px) {
+    nav {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        margin: 0.46rem 0;
+    }
+
+    /* .video-list-container {
+        max-height: 700px;
+    } */
+}
